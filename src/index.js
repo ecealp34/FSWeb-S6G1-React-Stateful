@@ -7,11 +7,15 @@ import RuhHalleri from './components/RuhHalleri';
 import Dondurucu from './components/Dondurucu';
 import Kareler from './components/Kareler';
 import Programcilar from './components/Programcilar';
+import ToDo from './components/ToDo';
+
 
 
 const container = document.getElementById("root");
 const root = createRoot(container)
 root.render(<>
+
+  <ToDo />
   <Sayac />
   <RuhHalleri />
   <Dondurucu />
